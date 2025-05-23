@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI CMO | Marketing Intelligence Redefined</title>
+  <link rel="stylesheet" href="styles.css" />
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelectorAll(".faq-item h3").forEach(function(header) {
+        header.addEventListener("click", function() {
+          const item = this.parentElement;
+          item.classList.toggle("active");
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">CRESER AI</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <!-- <li><a href="#pricing">Pricing</a></li> -->
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="landing-section">
+    <div class="landing-content">
+      <h1 class="main-heading">Empower Your Business with an AI CMO</h1>
+      <p class="sub-heading">Your always-on, always-smart Chief Marketing Officer backed by data and intelligence</p>
+      <a href="features.html" class="cta-button">Explore Features</a>
+    </div>
+  </section>
+
+  <section id="faq" class="faq-section">
+    <div class="faq-container">
+        <h2 class="section-heading">Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>I already have a digital marketing agency. Do I still need your app?
+            <span class="arrow">&#9662;</span>
+            </h3>
+            <p>Our app is like an agency in your pocket. You may consider trying out marketing on your own as we have developed this app to be user controlled instead of agency controlled.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How is this app different from regular models like ChatGPT?
+            <span class="arrow">&#9662;</span>
+            </h3>
+            <p>Regular models like ChatGPT are trained on large and diverse datasets, while we have trained Creser specifically for its marketing intelligence. Additionally, Creser takes regular thoughtful actions on your behalf.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Who should ideally use Creser?
+            <span class="arrow">&#9662;</span>
+            </h3>
+            <p>Any business looking to expand their sales with efficient marketing can use Creser. This is built to make marketing so simplified that a business owner can handle it independently without external support.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Do I need to be tech-savvy to use Creser?
+            <span class="arrow">&#9662;</span>
+            </h3>
+            <p>Not at all. Creser is designed for ease of use, with a simple interface and plain-language inputs. Whether you're tech-savvy or not, Creser makes marketing accessible to everyone.</p>
+        </div>
+  </section>
+
+    <footer class="site-footer">
+    <div class="footer-content">
+        <img src="assets/creser AI logo.png" alt="Creser Logo" class="footer-logo" />
+        <p>&copy; 2025 Creser.ai · Hyderabad, India</p>
+        <a href="https://www.linkedin.com/company/creser-ai" target="_blank" class="footer-linkedin" aria-label="LinkedIn">
+        <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#0A66C2" width="24" height="24">
+            <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.6v2.2h.1c.64-1.2 2.2-2.4 4.5-2.4 4.82 0 5.7 3.2 5.7 7.4V24h-5v-7.6c0-1.8-.03-4.1-2.5-4.1s-2.9 2-2.9 4v7.7h-5V8z"/>
+        </svg>
+        </a>
+    </div>
+    </footer>
+
+
+</body>
+</html>
